@@ -3,50 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application Portal</title>
-    <!-- Combined styles and icons to point directly to your Yahoo_files folder -->
-    <link rel="stylesheet" href="Yahoo_files/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="Yahoo_files/image.png"> 
-    <!-- Standard FontAwesome CDN script for your magnifying glass icon -->
-    <script src="https://cloudflare.com" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="x-icon" href="images/image.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e3193a3a5c.js" crossorigin="anonymous"></script>
+    <title>Yahoo</title>
+    
 </head>
 <body>
-
     <header id="header">
-        <!-- 1. Left Side: Brand Logo -->
         <div class="header-logo">
-            <img src="Yahoo_files/image.png" alt="Application Logo" class="portal-logo" height="36">
+            <img src="images/yahoo.png">
         </div>
-
-        <!-- 2. Middle: Search Functionality -->
         <div class="search-box">
-            <input class="search-bx" type="text" placeholder="Search...">
-            <button class="search-btn">
-                <i id="icon1" class="fa-solid fa-magnifying-glass fa-xs"></i>
-            </button>
+            <input class="search-bx" type="text">
+            <button class="search-btn"><i id="icon1" class="fa-solid fa-magnifying-glass fa-xs"></i></button>
         </div>
-
-        <!-- 3. Right Side: Navigation & Actions (Renamed container contextually) -->
-        <div class="header-actions">
-            <button class="signin-btn">Sign in</button>
-            <!-- Adjusted image paths to pull safely from your Yahoo_files directory -->
-            <a href="#notification" class="action-icon">
-                <img src="Yahoo_files/notification.png" alt="Notifications" height="24"/>
-            </a>
-            <a href="#mailbox" class="action-icon">
-                <img src="Yahoo_files/mailbox.png" alt="Mailbox" height="24"/>
-            </a>
+        <div class="left-side">
+            <button>Sign in</button>
+            <a href="#notification"><img src="images/notification.png"/></a>
+            <a href="#mailbox"><img src="images/mailbox.png" /></a>
         </div>
     </header>
-
-    <!-- Main page content area can start right here -->
-    <main class="main-content">
-        <!-- Content goes here -->
-    </main>
-
-</body>
-</html>
-
     <nav class="menu">
         <ul>
             <li><a href="#mail"><i style="margin-right:10px; font-size: 17px;" class="fa-solid fa-envelope fa-xs"></i>Mail</a></li>
